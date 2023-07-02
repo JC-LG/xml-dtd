@@ -2,8 +2,8 @@
 ## UNIR Practica
 ### Lenguajes, Estándares y Tecnologías para la Web (MEXINGWEB)
 
+- [Link a XML](https://github.com/JC-LG/xml-dtd/blob/master/juegos.xml)
+- [Link a DTD](https://github.com/JC-LG/xml-dtd/blob/master/juegos.dtd)
+
 ![XML & DTD](imagenes/XML%20y%20DTD.png)
 ![ScriptDTD](imagenes/Script.png)
-
-[Link a XML](https://jc-lg.github.io/pueblos-magicos/src/)
-[Link a DTD](https://jc-lg.github.io/pueblos-magicos/src/)
