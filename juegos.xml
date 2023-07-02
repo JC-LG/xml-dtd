@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE juegos SYSTEM "juegos.dtd">
+<juegos>
+    <juego>
+        <nombre codigo="1" idioma="es">Dios de la Guerra</nombre>
+        <plataforma>Playstation 5</plataforma>
+        <precio moneda="mx">900.00</precio>
+        <sinopsis codigoDeJuego="3">Juego de aventura y guerra. - &autor;</sinopsis>
+    </juego>
+    <juego>
+        <nombre codigo="2" idioma="en">Last of Us</nombre>
+        <plataforma>Playstation 5</plataforma>
+        <precio moneda="usd">60.00</precio>
+        <sinopsis codigoDeJuego="2">Juego de terror. - &autor;</sinopsis>
+    </juego>
+    <juego>
+        <nombre codigo="3" idioma="en">Last of Us</nombre>
+        <plataforma>Playstation 5</plataforma>
+        <precio moneda="usd">60.00</precio>
+        <sinopsis codigoDeJuego="3">Juego de terror. - &autor;</sinopsis>
+    </juego>
+</juegos>
