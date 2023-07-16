@@ -1,11 +1,10 @@
-<!ELEMENT juegos (juego+)>
-<!ELEMENT juego (nombre, plataforma, precio, sinopsis)>
+<!ELEMENT juegos (juego)*>
+<!ELEMENT juego (nombre|plataforma|precio|sinopsis)*>
 <!ELEMENT nombre (#PCDATA)>
-<!ATTLIST nombre codigo ID #PCDATA #REQUIRED>
-<!ATTLIST nombre idioma (es|en) NMTOKEN #REQUIRED>
-<!ELEMENT plataforma EMPTY>
-<!ELEMENT precio (#PCDATA|EMPTY)>
-<!ATTLIST precio moneda (usd|mx) NMTOKENS #IMPLIED>
+<!ATTLIST nombre codigo CDATA #REQUIRED idioma CDATA #REQUIRED>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #REQUIRED>
 <!ELEMENT sinopsis (#PCDATA)>
-<!ATTLIST sinopsis codigoDeJuego IDREF #IMPLIED>
+<!ATTLIST sinopsis codigoDeJuego CDATA #REQUIRED>
 <!ENTITY autor "Juan Carlos Ledezma">
